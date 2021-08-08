@@ -1,14 +1,16 @@
-package com.mfdevelopment.jetpackcomposetest
+package com.mfdevelopment.jetpackcomposeapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.mfdevelopment.jetpackcomposetest.ui.theme.JetpackComposeAppTheme
+import com.mfdevelopment.jetpackcomposeapp.ui.theme.JetpackComposeAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,7 +28,10 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
-    Text(text = "Hello $name!")
+    Column(verticalArrangement = Arrangement.Top) {
+        Text(text = "Hello $name!")
+        Text(text = "Ciao $name!")
+    }
 }
 
 @Preview(showBackground = true)

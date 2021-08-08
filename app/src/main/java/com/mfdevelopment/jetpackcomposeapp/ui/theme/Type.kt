@@ -1,4 +1,4 @@
-package com.mfdevelopment.jetpackcomposetest.ui.theme
+package com.mfdevelopment.jetpackcomposeapp.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.mfdevelopment.jetpackcomposetest.ui.theme
+package com.mfdevelopment.jetpackcomposeapp.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
